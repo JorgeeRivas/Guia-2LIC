@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');  
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: 'Reem Kufi', sans-serif;
+    vertical-align: baseline;
+  }
+  
+  html {
+    line-height: 1;
+  }
+  
+  header {
+    display: block;
+  }
+  
+  body {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: #22395C;
+  }
+  
+  h3 {
+    font-size: 2.5em;
+    margin: 100px;
+    padding: 5%;
+  
+  }
+  
+  h2 {
+    margin-bottom: 3em;
+  }
+  
+  header p {
+    margin-bottom: 2em;
+  }
+  
+  .imagen{
+    height: 400px;
+    padding: 30px;
+    position: relative;
+    top: 50%;
+  
+  }

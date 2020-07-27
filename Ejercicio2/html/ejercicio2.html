@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/ej2.js"></script>
+    <link rel="stylesheet" href="../css/productos.css">
+    <title>Ejercicio 2</title> 
+</head>
+<body>
+    <form>
+        <p>Nombre del producto:</p>
+        <input type="text" class="field" id="nombre"> <br/>
+    
+        <p>Precio:</p>
+        <input type="text" class="field" id="precio"> <br/>
+    
+        <p class="center-content">
+            <button id="boton" type="reset" class="btn btn-green" onclick="capturar();">Agregar</button>
+        </p>
+
+    </form>
+    <div id="main-container">
+		<table id="tabla">
+			<thead>
+				<tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+				</tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                  <th scope="row">Total</th>
+                  <th id="total"></th>
+                </tr>
+              </tfoot>
+		</table>
+    </div>
+</body> 
+</html>
